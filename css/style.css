@@ -1,0 +1,159 @@
+body {
+	/*background-color: #a2fe03;*/
+}
+img.logo {
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.cd100 {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.countdown h1{
+	color: #fe005b;
+    text-align: center;
+    padding-top: 3%;
+    /* font-family: 'Kaushan Script', cursive; */
+}
+.countdown h2{
+	text-align: center;
+	font-family: 'Pridi', serif;
+	color: #2f00da;
+
+}
+.slider1 {
+	display: block;
+	width: 800px !important;
+	padding: 0 !important;
+	border: 0;
+	height: 310px;
+	margin: 0 auto;
+}
+.slider {
+	width: 100%;
+	margin: 0 auto;
+	height: inherit;
+}
+.slick-slide {
+	margin: 0px 20px;
+}
+.slick-slide img {
+	width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+.slick-slide {
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+.slick-slide div:nth-child(1){
+	height: inherit;
+	width: inherit;
+}
+.slick-active {
+	opacity: .5;
+}
+.slick-current {
+	opacity: 1;
+}
+.slick-list, .slick-track{
+	height: inherit;
+}
+.ss{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: inherit;
+	width: inherit;
+}
+.ss1{
+	background-image: url('../images/event1.png');
+}
+.ss2{
+	background-image: url('../images/event2.jpg');
+}
+.ss3{
+	background-image: url('../images/event6.jpg');
+}
+.ss4{
+	background-image: url('../images/event4.jpg');
+}
+.ss5{
+	background-image: url('../images/event9.jpg');
+}
+.ss6{
+	background-image: url('../images/event7.jpg');
+}
+.ss7{
+	background-image: url('../images/event3.jpg');
+}
+.form-control {
+	box-shadow: none;
+	background: transparent;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	height: 54px;
+	font-size: 18px;
+	font-weight: 300;
+}
+.form-control:active, .form-control:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #8BC34A;
+}
+#subscribe {
+	width: 100%;
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+#subscribe .col-xs-12{
+	margin: 0 auto;
+}
+#subscribe #email {
+	font-size: 16px;
+	background: transparent;
+	border: 1px solid green;
+	margin-right: -5px;
+	width: 400px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.btn {
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-family: "Space Mono", Arial, serif;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	padding: 8px 20px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #fe005b !important;
+	border-color: #fe005b !important;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #0069d9 !important;
+	border-color: #0062cc !important;
+}
+.popup{
+	position: fixed;
+	height: -webkit-fill-available;
+	width: -webkit-fill-available;
+	top: 0;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
