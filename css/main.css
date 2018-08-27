@@ -2116,6 +2116,7 @@ body {
 .hero-area {
   background: url(../img/header-bg.jpg) no-repeat center/contain;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .overlay-bg {
@@ -2277,6 +2278,7 @@ body {
 .contact-area {
   background: url(../img/contact-bg.jpg) no-repeat center center/cover;
   color: #fff;
+  background-attachment: fixed;
 }
 
 .contact-area h2 {
