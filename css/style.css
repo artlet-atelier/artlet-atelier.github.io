@@ -1,6 +1,6 @@
 .home-first-part {
 	z-index: 5;
-	width: 456px;
+	width: 70%;
 	min-height: 72px;
 	background-color: #00B495;
 	line-height: 48px !important;
@@ -20,7 +20,7 @@
 }
 .home-second-part {
 	z-index: 21;
-	width: 655px;
+	width: 100%;
 	border-width: 6px;
 	border-style: solid;
 	border-color: #fd4c09;
@@ -37,8 +37,8 @@
 	width: 456px;
 	min-height: 72px;
 	background-color: #00B495;
-	line-height: 48px !important;
-	font-size: 48px !important;
+	line-height: 48px;
+	font-size: 48px;
 	color: #FFFFFF !important;
 	text-align: center;
 	font-family: raleway, sans-serif;
@@ -50,10 +50,13 @@
 	position: relative;
 	margin-right: -1000px;
 	margin-top: 12px;
-	left: 300px;
+	left: 20%;
 }
 .service-area {
 	padding-top: 0
+}
+.col-service-area {
+	width: -webkit-fill-available;
 }
 .oc1 {
 	background-image: -moz-linear-gradient(0deg, #2d00d9 0%, #fe015a 100%) !important;

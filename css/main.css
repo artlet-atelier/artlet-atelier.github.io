@@ -2111,6 +2111,16 @@ body {
   .banner-content h1 {
     font-size: 60px;
   }
+  .banner-content h4 {
+    line-height: 68px !important;
+    font-size: 29px !important;
+  }
+  .area-title {
+    left: 10% !important;
+    width: 230px !important;
+    font-size: 32px !important;
+    line-height: 64px !important;
+  }
 }
 
 .hero-area {
